@@ -68,6 +68,9 @@ profile = "black"
 force_single_line = true
 lines_after_imports = 2
 
+[tool.black]
+line-length = 79
+
 [tool.mypy]
 strict = true
 warn_unreachable = true
