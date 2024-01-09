@@ -23,7 +23,7 @@
 
 ## Features
 
-- TODO
+A simple project that can transfer a g-code file into a model file.
 
 ## Requirements
 
