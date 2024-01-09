@@ -40,7 +40,7 @@ $ pip install .
 
 ## Usage
 
-You can use the following commands to parse a g-code file and
+You can use the following commands to parse a g-code file and 
 show the model in 3D model like
 ![Alt text](image.png)
 And also output the result to a model file.
@@ -66,6 +66,11 @@ triangles:
 [81229 81325 81329]
 ```
 Here the `[118.50377655  75.82322693   0.46599999]` represent the coordinate of each vertices and the `[81229 81285 81289]` represent the indexes of the vertex of which triangles are based on.
+
+
+Also after using `--draw` argument you can get a raw picture of the printing line model.
+
+![Alt text](image-1.png)
 
 
 ## Contributing
