@@ -46,6 +46,7 @@ def sampling_model(lines, distance: float):
 
 
 def surface_reconstruct(points, alpha: float):
+    """reconstruct the surface via alpha shape"""
     from open3d.geometry import TriangleMesh
 
     pcd = o3d.geometry.PointCloud()
